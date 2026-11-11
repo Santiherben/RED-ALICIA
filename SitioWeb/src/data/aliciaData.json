@@ -1,0 +1,378 @@
+{
+  "name": "RED ALI.C.I.A",
+  "shortName": "ALICIA",
+  "fullName": "Alianza para la Colaboración, la Investigación y los Aprendizajes",
+  "acronymBreakdown": [
+    { "letters": "ALI", "word": "Alianza", "desc": "Lazos horizontales y solidarios entre colectivos y equipos." },
+    { "letters": "C", "word": "Colaboración", "desc": "Práctica profesional compartida que eleva la calidad académica." },
+    { "letters": "I", "word": "Investigación", "desc": "Producción de conocimiento situada en la Formación en Educación." },
+    { "letters": "A", "word": "Aprendizajes", "desc": "Crecimiento preprofesional y profesional mediante sinergia mutua." }
+  ],
+  "scope": "Formación en Educación • Consejo de Formación en Educación (CFE) • Uruguay",
+  "foundingDate": "23 de febrero de 2022",
+  "contactEmail": "redaliciacfe@gmail.com",
+  "tagline": "Un ecosistema en clave de panal colaborativo: conectando equipos investigadores, docentes, estudiantes y personas egresadas para sostener y proyectar la investigación en Formación en Educación.",
+  "links": {
+    "formPersonas": "https://docs.google.com/forms/d/e/1FAIpQLScD3VBJZk72BmnBnRQIAyjJ9Hm1VUORvqM_EOQ6XwkNAsAegA/closedform",
+    "formGrupos": "https://docs.google.com/forms/d/e/1FAIpQLSelT_ul5URbVOMd8Iry_Qc0v0hbtHCMNTgCT1qhj9N-mxsQQw/closedform",
+    "youtube": "https://www.youtube.com/channel/UC8QSQYXomrh87EF_pWFJj7w",
+    "revistaPanalCFE": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes/8-institucional/2142-revista-panal-red-alicia",
+    "cfeWeb": "https://www.cfe.edu.uy/",
+    "ojsCfe": "https://ojs.cfe.edu.uy/",
+    "ridaaCfe": "http://repositorio.cfe.edu.uy/"
+  },
+  "stats": [
+    {
+      "label": "Hito Fundacional",
+      "value": "23 Feb 2022",
+      "highlight": "Jornada de relevamiento CFE"
+    },
+    {
+      "label": "Cometidos Centrales",
+      "value": "5",
+      "highlight": "Ejes de articulación y sinergia"
+    },
+    {
+      "label": "Acciones del Panal",
+      "value": "11",
+      "highlight": "Prácticas colaborativas activas"
+    },
+    {
+      "label": "Revista Panal",
+      "value": "ISSN 2982-4168",
+      "highlight": "Órgano oficial de divulgación"
+    }
+  ],
+  "aboutParagraphs": [
+    "Como equipos de investigación que nos desempeñamos en el ámbito de la Formación en Educación, impactan en nuestro desempeño: las culturas profesionales e institucionales de las que formamos parte; las políticas a nivel macro y micro, las posibilidades de financiamiento; las condiciones laborales (sueldo, cantidad de horas, multiempleo, etc.) y las alianzas que estén establecidas con otras instituciones o con otras comunidades investigadoras.",
+    "La formación en Educación de Uruguay actualmente es terciaria no universitaria, sin embargo, la función de investigación ya se ha incorporado a las tareas del profesorado formador, estudiantado y personas egresadas, por diversos medios. La producción de conocimiento es una práctica establecida que, sin embargo, se lleva adelante aún de forma desarticulada, con escasa conexión entre las personas formadoras investigadoras.",
+    "Los apoyos económicos con los que se cuenta son percibidos como insuficientes, de acuerdo a lo que se constató en la jornada del 23 de febrero de 2022, en la que se relevó el interés de docentes, estudiantes y egresadas de CFE en la conformación de la Red. En el entendido de que la generación de lazos entre equipos investigadores podrá contribuir a dar sostenibilidad a la función investigativa, surge esta red."
+  ],
+  "contextFactors": [
+    {
+      "id": "culturas",
+      "title": "Culturas Profesionales e Institucionales",
+      "desc": "Las tradiciones, dinámicas e identidades de los centros e institutos de Formación en Educación de los que formamos parte.",
+      "icon": "Building2"
+    },
+    {
+      "id": "politicas",
+      "title": "Políticas Macro y Micro y Financiamiento",
+      "desc": "Los marcos normativos e institucionales junto con las posibilidades reales de apoyo económico para sostener proyectos.",
+      "icon": "Scale"
+    },
+    {
+      "id": "condiciones",
+      "title": "Condiciones Laborales Docentes",
+      "desc": "Variables estructurales como salario, dedicación horaria, multiempleo y tiempos efectivos para la labor investigativa.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": "alianzas",
+      "title": "Alianzas Interinstitucionales y Redes",
+      "desc": "Los vínculos estratégicos con otras instituciones educativas y comunidades de personas investigadoras dentro y fuera del país.",
+      "icon": "Network"
+    }
+  ],
+  "cometidos": [
+    {
+      "id": 1,
+      "title": "Conectar a los equipos del CFE",
+      "description": "Conectar a todos los equipos de investigación del CFE.",
+      "icon": "Share2",
+      "badge": "Celda 01 • Articulación"
+    },
+    {
+      "id": 2,
+      "title": "Colaboración como práctica profesional",
+      "description": "Propiciar la colaboración como práctica profesional que contribuye a la calidad en la producción de conocimiento.",
+      "icon": "Handshake",
+      "badge": "Celda 02 • Calidad"
+    },
+    {
+      "id": 3,
+      "title": "Sostenibilidad de la actividad investigadora",
+      "description": "Mejorar la sostenibilidad de la actividad investigadora en los colectivos, como una tarea de aprendizaje pre profesional y profesional.",
+      "icon": "Sprout",
+      "badge": "Celda 03 • Sostenibilidad"
+    },
+    {
+      "id": 4,
+      "title": "Crecimiento en clave colaborativa",
+      "description": "Impulsar el crecimiento en clave colaborativa de las personas investigadoras del CFE (docentes, egresados y estudiantes).",
+      "icon": "Users",
+      "badge": "Celda 04 • Comunidad"
+    },
+    {
+      "id": 5,
+      "title": "Sinergia del aprendizaje mutuo",
+      "description": "Fortalecer las capacidades de los equipos de investigación ya establecidos, a través de la sinergia del aprendizaje mutuo.",
+      "icon": "Sparkles",
+      "badge": "Celda 05 • Sinergia"
+    }
+  ],
+  "acciones": [
+    {
+      "id": 1,
+      "category": "Formación y Tutorías",
+      "title": "Espacios de Tutorías Colaborativas",
+      "description": "Facilitar espacios de tutorías (por ejemplo: entre pares, entre docentes, estudiantes y egresados, entre estudiantes).",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": 2,
+      "category": "Metodología y Producción",
+      "title": "Validación y Testeo de Instrumentos",
+      "description": "Apoyar en la validación y testeo de instrumentos de recogida de datos.",
+      "icon": "ClipboardCheck"
+    },
+    {
+      "id": 3,
+      "category": "Trabajo de Campo y Vínculos",
+      "title": "Vinculación con Actores e Instituciones",
+      "description": "Contribuir a la vinculación con personas e instituciones que puedan ser relevantes como objetos de estudio de investigaciones.",
+      "icon": "Link2"
+    },
+    {
+      "id": 4,
+      "category": "Metodología y Producción",
+      "title": "Lectura Cruzada de Producciones",
+      "description": "Facilitar la lectura cruzada de producciones (artículos, Proyectos u otros), con el propósito de contribuir a la mejora.",
+      "icon": "BookOpenCheck"
+    },
+    {
+      "id": 5,
+      "category": "Metodología y Producción",
+      "title": "Visibilidad y Citación Cruzada",
+      "description": "Favorecer el conocimiento de lo que hacen quienes la integran permitiendo así la citación cruzada entre autores de publicaciones.",
+      "icon": "Quote"
+    },
+    {
+      "id": 6,
+      "category": "Eventos y Difusión",
+      "title": "Organización de Eventos Académicos",
+      "description": "Organizar eventos académicos intergrupales, interinstitucionales, nacionales e internacionales.",
+      "icon": "CalendarRange"
+    },
+    {
+      "id": 7,
+      "category": "Eventos y Difusión",
+      "title": "Circulación de Información y Convocatorias",
+      "description": "Promover la circulación de información académica, educativa y de convocatorias.",
+      "icon": "Megaphone"
+    },
+    {
+      "id": 8,
+      "category": "Trabajo de Campo y Vínculos",
+      "title": "Permisos de Campo y Avales Institucionales",
+      "description": "Brindar apoyo para la obtención de permisos de ingreso al campo y avales institucionales.",
+      "icon": "FileCheck2"
+    },
+    {
+      "id": 9,
+      "category": "Trayectorias y Consultoría",
+      "title": "Validación de Trayectorias y Proyectos",
+      "description": "Contribuir a la validación de trayectorias académicas en el campo investigativo y validación de proyectos en curso o terminados.",
+      "icon": "Award"
+    },
+    {
+      "id": 10,
+      "category": "Trayectorias y Consultoría",
+      "title": "Asesoría y Consultoría Nacional e Internacional",
+      "description": "Llevar adelante tareas de asesoría o consultoría destinadas a quienes lo requieran ya sean personas, equipos u organismos, tanto a nivel nacional como internacional.",
+      "icon": "Compass"
+    },
+    {
+      "id": 11,
+      "category": "Eventos y Difusión",
+      "title": "Articulación con Otras Redes Educativas",
+      "description": "Vincular a sus integrantes con otras redes relacionadas a temáticas educativas, entre otros múltiples beneficios.",
+      "icon": "Globe2"
+    }
+  ],
+  "revistaPanal": {
+    "title": "Revista PANAL",
+    "subtitle": "Publicación Digital Oficial de la Red ALI.C.I.A • CFE",
+    "issn": "ISSN Digital 2982-4168",
+    "url": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes/8-institucional/2142-revista-panal-red-alicia",
+    "description": "La Revista Panal nace bajo la metáfora del panal de abejas: una arquitectura hexagonal donde cada celda representa el aporte riguroso y solidario de equipos investigadores, docentes formadores, estudiantes y personas egresadas del CFE. Funciona como canal abierto de divulgación científica, intercambio pedagógico y lectura cruzada en la Formación en Educación de Uruguay.",
+    "highlights": [
+      "Publicación de artículos de investigación educativa, ensayos académicos y sistematización de experiencias pedagógicas.",
+      "Visibilidad de proyectos de investigación formativa desarrollados en IFD, CeRP, IPA, IINN e INET.",
+      "Promoción de la lectura cruzada y la citación mutua entre autores e investigadores de la Formación en Educación.",
+      "Acceso libre e institucional a través del portal oficial del Consejo de Formación en Educación (CFE)."
+    ],
+    "issues": [
+      {
+        "number": "Edición N.º 1",
+        "title": "Orígenes de la Red, Grupos Cofundadores e Investigación en Formación Docente",
+        "summary": "Número inaugural dedicado a visibilizar la génesis de la Red ALICIA (GIF, Trébol, GIDEBIOF), reflexiones sobre la función investigativa en el CFE y producciones de equipos docentes y estudiantiles.",
+        "tags": ["Génesis Red ALICIA", "Investigación Formativa", "Equipos CFE"]
+      },
+      {
+        "number": "Edición N.º 2",
+        "title": "Prácticas Pedagógicas, Escritura Académica y Desafíos Digitales en Educación",
+        "summary": "Artículos e investigaciones sobre estrategias didácticas, argumentación y lectura en el nivel terciario, inclusión de tecnologías digitales e inteligencia artificial en la formación de formadores.",
+        "tags": ["Didáctica Superior", "Escritura Académica", "IA y Tecnologías"]
+      }
+    ]
+  },
+  "researchers": [
+    {
+      "id": "claudia-cabrera",
+      "name": "Dra. Claudia Cabrera Borges",
+      "role": "Cofundadora y Referente Red ALICIA • Coordinadora GIF",
+      "group": "Grupo GIF",
+      "institution": "Consejo de Formación en Educación (CFE) • IFD San José / SNI",
+      "avatarInitials": "CC",
+      "bio": "Doctora en Educación e investigadora categorizada en el Sistema Nacional de Investigadores (SNI - ANII). Cofundadora de la Red ALICIA e integrante referente del Grupo de Investigación Formativa (GIF). Sus líneas de investigación abordan la investigación formativa, la inclusión de tecnologías digitales e inteligencia artificial en la educación y las prácticas de enseñanza en formación docente.",
+      "lines": ["Investigación Formativa", "Tecnologías Digitales e IA", "Prácticas Pedagógicas"],
+      "orcid": "https://orcid.org/0000-0002-4721-5526"
+    },
+    {
+      "id": "silvia-umpierrez",
+      "name": "Dra. Silvia Umpiérrez Oroño",
+      "role": "Cofundadora y Referente Red ALICIA • Directora Grupo Trébol",
+      "group": "Grupo Trébol",
+      "institution": "Consejo de Formación en Educación (CFE) • CeRP / SNI",
+      "avatarInitials": "SU",
+      "bio": "Doctora en Educación y Licenciada en Ciencias Biológicas. Cofundadora de la Red ALICIA y directora del Grupo de Investigación Trébol en el ámbito del CFE. Investiga sobre el desarrollo de competencias científicas, gestión educativa, evaluación y consolidación de la cultura investigativa en la formación docente terciaria.",
+      "lines": ["Competencias Científicas", "Cultura Investigativa en CFE", "Gestión y Evaluación Educativa"],
+      "orcid": "https://orcid.org/0000-0001-9530-9768"
+    },
+    {
+      "id": "nazira-piriz",
+      "name": "Dra. Nazira Píriz Giménez (†)",
+      "role": "Cofundadora Histórica Red ALICIA • Fundadora GIDEBIOF",
+      "group": "Grupo GIDEBIOF",
+      "institution": "Consejo de Formación en Educación (CFE) • In Memoriam",
+      "avatarInitials": "NP",
+      "bio": "Doctora e investigadora pionera en el Consejo de Formación en Educación, fundadora del Grupo de Investigación Didáctica y Extensión en Ciencias Biológicas para la Formación de Docentes (GIDEBIOF) e impulsora fundamental en la gestación de la Red ALICIA en febrero de 2022.",
+      "lines": ["Didáctica de las Ciencias Biológicas", "Extensión e Investigación en CFE", "Trabajo Colaborativo en Red"],
+      "orcid": ""
+    },
+    {
+      "id": "fernanda-matto",
+      "name": "Mag. Fernanda Matto",
+      "role": "Investigadora Integrante • Grupo GIF / Red ALICIA",
+      "group": "Grupo GIF",
+      "institution": "Consejo de Formación en Educación (CFE) / ANEP",
+      "avatarInitials": "FM",
+      "bio": "Profesora de Ciencias de la Naturaleza, Magíster en Biología Celular y Molecular y Magíster en Formación de Formadores. Docente e investigadora activa de la Red ALICIA y del Grupo de Investigación Formativa (GIF), especializada en evaluación educativa, didáctica de las ciencias e integración de inteligencia artificial generativa en educación superior.",
+      "lines": ["Formación de Formadores", "Evaluación y Didáctica", "IA Generativa en Educación"],
+      "orcid": ""
+    },
+    {
+      "id": "jimena-olivero",
+      "name": "Mag. Jimena Olivero Pera",
+      "role": "Investigadora Integrante • Grupo GIF / Red ALICIA",
+      "group": "Grupo GIF",
+      "institution": "Consejo de Formación en Educación (CFE) / ANEP",
+      "avatarInitials": "JO",
+      "bio": "Profesora de Sociología y Derecho, Magíster en Educación y doctoranda en Educación. Docente en el CFE e integrante activa de la Red ALICIA y del Grupo GIF, con investigaciones enfocadas en argumentación académica, lectura y escritura en el nivel terciario, sociología de la educación y tecnologías digitales.",
+      "lines": ["Argumentación y Escritura Académica", "Sociología de la Educación", "Didáctica en Nivel Terciario"],
+      "orcid": ""
+    },
+    {
+      "id": "santiago-hernandez",
+      "name": "Prof. Esp. Santiago Hernández",
+      "role": "Investigador y Docente Vinculado • Innovación y Redes Académicas",
+      "group": "Red ALICIA / CFE",
+      "institution": "Formación en Educación • ANEP / CFE • Uruguay",
+      "avatarInitials": "SH",
+      "bio": "Profesor y especialista en tecnologías educativas, investigación pedagógica e inteligencia artificial aplicada a la educación. Impulsor de espacios de articulación digital, redes de investigación educativa y difusión científica abierta en el ámbito de la Formación en Educación.",
+      "lines": ["Inteligencia Artificial y Educación", "Redes Académicas Colaborativas", "Innovación Pedagógica"],
+      "orcid": ""
+    }
+  ],
+  "relatedGroups": [
+    {
+      "id": "gif",
+      "acronym": "GIF",
+      "name": "Grupo de Investigación Formativa",
+      "role": "Grupo Cofundador de la Red ALICIA",
+      "description": "Espacio colectivo de investigación en el CFE enfocado en la investigación como herramienta formativa para docentes, estudiantes y egresados, abordando prácticas de enseñanza, escritura académica y tecnologías digitales.",
+      "badge": "Cofundador del Panal"
+    },
+    {
+      "id": "trebol",
+      "acronym": "TRÉBOL",
+      "name": "Grupo de Investigación Trébol",
+      "role": "Grupo Cofundador de la Red ALICIA",
+      "description": "Equipo de investigación del ámbito del CFE orientado al estudio de las competencias científicas, las culturas institucionales, la evaluación formativa y el fortalecimiento de las trayectorias investigativas docentes.",
+      "badge": "Cofundador del Panal"
+    },
+    {
+      "id": "gidebiof",
+      "acronym": "GIDEBIOF",
+      "name": "Grupo de Investigación Didáctica y Extensión en Ciencias Biológicas para la Formación de Docentes",
+      "role": "Grupo Cofundador de la Red ALICIA",
+      "description": "Colectivo pionero en la articulación entre docencia, extensión e investigación didáctica en las ciencias biológicas dentro de la Formación en Educación en Uruguay.",
+      "badge": "Cofundador del Panal"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "title": "Revista Panal — Portal Oficial CFE",
+      "subtitle": "Espacio institucional de la Revista Panal y la Red ALICIA en el sitio web del CFE",
+      "url": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes/8-institucional/2142-revista-panal-red-alicia",
+      "category": "Publicación Oficial"
+    },
+    {
+      "title": "Consejo de Formación en Educación (CFE - ANEP)",
+      "subtitle": "Organismo rector de la formación docente y de educadores en Uruguay",
+      "url": "https://www.cfe.edu.uy/",
+      "category": "Institucional"
+    },
+    {
+      "title": "Portal de Revistas Académicas del CFE (OJS)",
+      "subtitle": "Plataforma editorial abierta de publicaciones periódicas académicas del CFE",
+      "url": "https://ojs.cfe.edu.uy/",
+      "category": "Repositorio Editorial"
+    },
+    {
+      "title": "Repositorio Institucional RIdAA - CFE",
+      "subtitle": "Repositorio Digital de Acceso Abierto del Consejo de Formación en Educación",
+      "url": "http://repositorio.cfe.edu.uy/",
+      "category": "Ciencia Abierta"
+    },
+    {
+      "title": "Canal Oficial de la Red ALICIA en YouTube",
+      "subtitle": "Registro audiovisual de encuentros, jornadas intergrupales y conversatorios",
+      "url": "https://www.youtube.com/channel/UC8QSQYXomrh87EF_pWFJj7w",
+      "category": "Multimedia"
+    },
+    {
+      "title": "RELISE — Red Latinoamericana de Investigación Social y Educativa",
+      "subtitle": "Red internacional hermana de cooperación horizontal e investigación educativa en América Latina",
+      "url": "https://relise.org",
+      "category": "Red Hermana"
+    }
+  ],
+  "communityProfiles": [
+    {
+      "role": "Profesorado Formador",
+      "subtitle": "Docentes investigadores del CFE",
+      "desc": "Docentes que integran la función de investigación a su práctica formadora, liderando o co-participando en líneas de indagación pedagógica y disciplinar.",
+      "highlights": ["Lectura cruzada entre pares", "Validación de instrumentos y proyectos", "Citación cruzada y coautoría"]
+    },
+    {
+      "role": "Estudiantado",
+      "subtitle": "Aprendizaje investigativo preprofesional",
+      "desc": "Estudiantes de Formación en Educación que se inician en la producción de conocimiento como dimensión constitutiva de su futura praxis docente.",
+      "highlights": ["Tutorías entre estudiantes y con docentes", "Acompañamiento en ingreso al campo", "Participación en eventos intergrupales"]
+    },
+    {
+      "role": "Personas Egresadas",
+      "subtitle": "Investigación profesional continua",
+      "desc": "Profesionales egresados del CFE que sostienen el vínculo investigativo, enriqueciendo los equipos con la experiencia situada de las aulas e instituciones.",
+      "highlights": ["Continuidad pos-egreso en equipos", "Validación de trayectorias académicas", "Redes educativas nacionales e internacionales"]
+    },
+    {
+      "role": "Equipos de Investigación",
+      "subtitle": "Grupos constituidos y en formación",
+      "desc": "Colectivos de investigación del ámbito de la Formación en Educación que buscan sinergia, respaldo mutuo y proyección conjunta.",
+      "highlights": ["Sinergia del aprendizaje mutuo", "Organización de eventos interinstitucionales", "Asesoría y consultoría especializada"]
+    }
+  ]
+}

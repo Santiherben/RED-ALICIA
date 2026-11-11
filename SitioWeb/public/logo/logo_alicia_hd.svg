@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="800" height="800">
+  <defs>
+    <linearGradient id="sageGradTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7ca28b" />
+      <stop offset="55%" stop-color="#678d75" />
+      <stop offset="100%" stop-color="#537760" />
+    </linearGradient>
+    <linearGradient id="sageGradSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#739982" />
+      <stop offset="50%" stop-color="#648a72" />
+      <stop offset="100%" stop-color="#4e715b" />
+    </linearGradient>
+    <linearGradient id="sageGradBottom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b9179" />
+      <stop offset="60%" stop-color="#5a7f68" />
+      <stop offset="100%" stop-color="#466853" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#16211b" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Fondo blanco puro de las canaletas del panal -->
+  <rect x="4" y="4" width="392" height="392" rx="14" fill="#ffffff" />
+
+  <!-- 6 Celdas Exteriores del Panal (Geometría exacta de ALI.C.I.A mejorada en HD) -->
+  <g filter="url(#softShadow)">
+    <!-- Celda Superior -->
+    <polygon points="96,10 304,10 255,83 145,83" fill="url(#sageGradTop)" stroke="#88ae97" stroke-width="1" />
+    <!-- Celda Inferior -->
+    <polygon points="145,317 255,317 304,390 96,390" fill="url(#sageGradBottom)" stroke="#7ea48d" stroke-width="1" />
+    <!-- Celda Noroeste -->
+    <polygon points="10,10 71,10 123,89 72,190 10,190" fill="url(#sageGradSide)" stroke="#88ae97" stroke-width="1" />
+    <!-- Celda Noreste -->
+    <polygon points="329,10 390,10 390,190 328,190 277,89" fill="url(#sageGradSide)" stroke="#88ae97" stroke-width="1" />
+    <!-- Celda Suroeste -->
+    <polygon points="10,210 72,210 123,311 71,390 10,390" fill="url(#sageGradBottom)" stroke="#7ea48d" stroke-width="1" />
+    <!-- Celda Sureste -->
+    <polygon points="328,210 390,210 390,390 329,390 277,311" fill="url(#sageGradBottom)" stroke="#7ea48d" stroke-width="1" />
+  </g>
+
+  <!-- Hexágono Central Blanco (Núcleo del Panal) -->
+  <polygon
+    points="142,86 258,86 322,200 258,314 142,314 78,200"
+    fill="#ffffff"
+  />
+
+  <!-- Tipografía Institucional ALI.C.I.A en alta definición -->
+  <text
+    x="200"
+    y="216"
+    text-anchor="middle"
+    font-family="'Outfit', 'Plus Jakarta Sans', 'Segoe UI', sans-serif"
+    font-size="47"
+    font-weight="500"
+    letter-spacing="1.5"
+    fill="#2e3532"
+  >
+    ALI.C.I.A
+  </text>
+</svg>
