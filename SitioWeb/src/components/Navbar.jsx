@@ -17,13 +17,14 @@ export default function Navbar({ darkMode, setDarkMode, onOpenFundamentos }) {
 
   const navLinks = [
     { name: 'Inicio', href: '#inicio' },
+    { name: 'Viernes 13 • IPES', href: '#destacados', highlight: true },
     { name: '¿Qué es ALICIA?', href: '#que-es' },
     { name: 'Cometidos', href: '#cometidos' },
     { name: 'Acciones', href: '#acciones' },
-    { name: 'Revista Panal', href: '#revista-panal', highlight: true },
+    { name: 'Revista Panal', href: '#revista-panal' },
     { name: 'Integrantes', href: '#integrantes' },
-    { name: 'Grupos y Enlaces', href: '#grupos-enlaces' },
-    { name: 'Adhesión y Contacto', href: '#adhesion' },
+    { name: 'Grupos y JIFE', href: '#grupos-enlaces' },
+    { name: 'Adhesión', href: '#adhesion' },
   ];
 
   return (
@@ -56,7 +57,7 @@ export default function Navbar({ darkMode, setDarkMode, onOpenFundamentos }) {
                   Panal CFE
                 </span>
               </div>
-              <p className="text-[10px] font-medium text-slate-600 dark:text-slate-400 hidden xl:block leading-tight mt-0.5">
+              <p className="text-[10px] font-medium text-slate-600 dark:text-slate-400 hidden 2xl:block leading-tight mt-0.5">
                 Alianza para la Colaboración, la Investigación y los Aprendizajes
               </p>
             </div>
@@ -70,7 +71,7 @@ export default function Navbar({ darkMode, setDarkMode, onOpenFundamentos }) {
                 href={link.href}
                 className={`px-2.5 py-1.5 text-xs font-bold rounded-xl transition-colors ${
                   link.highlight
-                    ? 'text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/50 hover:bg-amber-100 dark:hover:bg-amber-900/60 border border-amber-200/80 dark:border-amber-800/50'
+                    ? 'text-amber-900 dark:text-amber-300 bg-amber-100/90 dark:bg-amber-950/60 hover:bg-amber-200 dark:hover:bg-amber-900/70 border border-amber-300 dark:border-amber-700/60'
                     : 'text-slate-700 dark:text-slate-300 hover:text-alicia-sage-700 dark:hover:text-alicia-sage-300 hover:bg-alicia-sage-50 dark:hover:bg-alicia-sage-900/40'
                 }`}
               >
@@ -89,7 +90,7 @@ export default function Navbar({ darkMode, setDarkMode, onOpenFundamentos }) {
               title="Ver Síntesis Fundacional del 23 de febrero de 2022"
             >
               <FileText className="w-3.5 h-3.5 text-alicia-sage-600 dark:text-alicia-sage-400" />
-              <span>Acta / Síntesis</span>
+              <span>Síntesis</span>
             </button>
 
             <button

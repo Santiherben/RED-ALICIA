@@ -5,8 +5,8 @@ import {
   Hexagon,
   UserPlus,
   ExternalLink,
-  Sparkles,
   GraduationCap,
+  FileText,
   ArrowRight
 } from 'lucide-react';
 import aliciaData from '../data/aliciaData.json';
@@ -15,7 +15,7 @@ export default function TeamDirectorySection({ onSelectMember }) {
   const [selectedGroup, setSelectedGroup] = useState('Todos');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const groups = ['Todos', 'Grupo GIF', 'Grupo Trébol', 'Grupo GIDEBIOF', 'Red ALICIA / CFE'];
+  const groups = ['Todos', 'Grupo GIF', 'Grupo Trébol', 'Grupo GIDEBIOF'];
 
   const filteredMembers = aliciaData.researchers.filter((m) => {
     const matchesGroup = selectedGroup === 'Todos' || m.group === selectedGroup;
@@ -39,13 +39,13 @@ export default function TeamDirectorySection({ onSelectMember }) {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white dark:bg-alicia-sage-900/60 border border-alicia-sage-300 dark:border-alicia-sage-700 text-alicia-sage-700 dark:text-alicia-sage-300 text-xs font-bold uppercase tracking-wider mb-3">
             <Users className="w-3.5 h-3.5" />
-            <span>Directorio Académico del Panal</span>
+            <span>Directorio Académico del Panal • Perfiles CVUy</span>
           </div>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-slate-900 dark:text-white">
             Integrantes Investigadores y Referentes
           </h2>
           <p className="mt-4 text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
-            Investigadoras, investigadores, docentes formadores, estudiantes y personas egresadas que impulsan y sostienen las celdas de investigación de la Red ALI.C.I.A en el CFE.
+            Fundadoras e investigadoras referentes de los grupos impulsores de la Red ALI.C.I.A en el CFE, con enlace directo a sus currículums públicos en el sistema <strong>CVUy (ANII)</strong>.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function TeamDirectorySection({ onSelectMember }) {
           </div>
         </div>
 
-        {/* Grilla de Investigadores + Tarjeta Abierta de Nuevos Integrantes */}
+        {/* Grilla de Investigadoras + Tarjeta Abierta de Nuevos Integrantes */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredMembers.map((member) => (
             <div
@@ -92,7 +92,6 @@ export default function TeamDirectorySection({ onSelectMember }) {
             >
               <div>
                 <div className="flex items-start justify-between gap-3 mb-5">
-                  {/* Avatar Hexagonal de Panal */}
                   <div className="relative w-14 h-14 rounded-2xl bg-gradient-to-br from-alicia-sage-600 to-teal-700 text-white font-display font-black text-lg flex items-center justify-center shadow-md border-2 border-white dark:border-alicia-sage-400/40 group-hover:scale-105 transition-transform">
                     {member.avatarInitials}
                   </div>
@@ -129,9 +128,26 @@ export default function TeamDirectorySection({ onSelectMember }) {
                   ))}
                 </div>
 
-                <div className="pt-3 border-t border-alicia-sage-100 dark:border-alicia-sage-800/70 flex items-center justify-between text-xs font-bold text-alicia-sage-700 dark:text-alicia-sage-300">
-                  <span>Ver perfil académico</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                <div className="pt-3 border-t border-alicia-sage-100 dark:border-alicia-sage-800/70 flex items-center justify-between gap-2">
+                  {member.cvuy && (
+                    <a
+                      href={member.cvuy}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/70 hover:bg-amber-100 dark:hover:bg-amber-900/80 text-amber-900 dark:text-amber-300 border border-amber-300/80 dark:border-amber-700/60 text-xs font-bold transition-all"
+                      title={`Abrir CVUy público de ${member.name}`}
+                    >
+                      <FileText className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+                      <span>CVUy Público</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  )}
+
+                  <span className="inline-flex items-center gap-1 text-xs font-bold text-alicia-sage-700 dark:text-alicia-sage-300 ml-auto">
+                    <span>Detalle</span>
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  </span>
                 </div>
               </div>
             </div>
@@ -147,10 +163,10 @@ export default function TeamDirectorySection({ onSelectMember }) {
                 Panal Abierto • IFD, CeRP, IPA, IINN, INET
               </span>
               <h3 className="font-display text-2xl font-black mb-3">
-                ¿Eres Docente, Estudiante, Egresado/a o Equipo del CFE?
+                ¿Deseas Integrarte a la Red ALICIA?
               </h3>
               <p className="text-xs sm:text-sm text-alicia-sage-100 leading-relaxed mb-6">
-                La Red ALICIA está abierta a la adhesión permanente tanto de personas interesadas (aunque no integren hoy un equipo) como de grupos de investigación de todo el país.
+                La Red ALICIA está abierta a la adhesión permanente tanto de personas interesadas como de grupos de investigación del ámbito de la Formación en Educación.
               </p>
             </div>
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import DestacadosSection from './components/DestacadosSection';
 import AboutAliciaSection from './components/AboutAliciaSection';
 import CometidosSection from './components/CometidosSection';
 import AccionesSection from './components/AccionesSection';
@@ -40,6 +41,7 @@ export default function App() {
 
       <main>
         <Hero onOpenFundamentos={() => setIsFundamentosOpen(true)} />
+        <DestacadosSection />
         <AboutAliciaSection onOpenFundamentos={() => setIsFundamentosOpen(true)} />
         <CometidosSection />
         <AccionesSection />

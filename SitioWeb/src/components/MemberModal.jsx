@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, GraduationCap, ExternalLink, Sparkles } from 'lucide-react';
+import { X, GraduationCap, ExternalLink, Sparkles, FileText } from 'lucide-react';
 
 export default function MemberModal({ member, onClose }) {
   if (!member) return null;
@@ -68,8 +68,21 @@ export default function MemberModal({ member, onClose }) {
             </div>
           </div>
 
-          {member.orcid && (
-            <div className="pt-2">
+          <div className="pt-2 flex flex-wrap items-center gap-3">
+            {member.cvuy && (
+              <a
+                href={member.cvuy}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-100 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 border border-amber-300 dark:border-amber-700 text-xs font-bold hover:bg-amber-200 transition-colors"
+              >
+                <FileText className="w-4 h-4 text-amber-700 dark:text-amber-400" />
+                <span>Ver CVUy Público (ANII)</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
+
+            {member.orcid && (
               <a
                 href={member.orcid}
                 target="_blank"
@@ -79,8 +92,8 @@ export default function MemberModal({ member, onClose }) {
                 <span>Ver Perfil Académico ORCID</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
-            </div>
-          )}
+            )}
+          </div>
         </div>
 
         {/* Footer */}

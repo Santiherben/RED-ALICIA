@@ -16,10 +16,31 @@
     "formPersonas": "https://docs.google.com/forms/d/e/1FAIpQLScD3VBJZk72BmnBnRQIAyjJ9Hm1VUORvqM_EOQ6XwkNAsAegA/closedform",
     "formGrupos": "https://docs.google.com/forms/d/e/1FAIpQLSelT_ul5URbVOMd8Iry_Qc0v0hbtHCMNTgCT1qhj9N-mxsQQw/closedform",
     "youtube": "https://www.youtube.com/channel/UC8QSQYXomrh87EF_pWFJj7w",
+    "redAliciaCFE": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes",
     "revistaPanalCFE": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes/8-institucional/2142-revista-panal-red-alicia",
+    "jifeCFE": "https://www.cfe.edu.uy/index.php/125-division-planeamiento-educativo/jife",
     "cfeWeb": "https://www.cfe.edu.uy/",
     "ojsCfe": "https://ojs.cfe.edu.uy/",
     "ridaaCfe": "http://repositorio.cfe.edu.uy/"
+  },
+  "destacado": {
+    "badge": "Hito Institucional • Convocatoria Abierta",
+    "title": "Asamblea Constitutiva de la Asociación Civil Red ALICIA",
+    "subtitle": "Conformación de la Comisión Directiva e inicio del trámite de Personería Jurídica en el marco de las JIFE",
+    "date": "Viernes 13",
+    "time": "15:30 hs",
+    "location": "Salón de Actos del IPES",
+    "framework": "En el marco de las JIFE (Jornadas de Investigación en Formación en Educación)",
+    "notaryHighlight": "Constitución formal como Asociación Civil frente a escribano público y firma del Acta Constitutiva (con ventana de 30 días posteriores para quienes no puedan asistir presencialmente ese día).",
+    "letterGreeting": "Estimad@s,",
+    "letterParagraphs": [
+      "Nos comunicamos con ustedes porque consideramos que pueden estar interesados en conformar la asociación civil de la Red Alicia. El próximo viernes 13 a las 15:30, en el salón de actos del IPES, en el marco de las JIFE, se realizará una asamblea de la Red en la que se conformará formalmente la comisión directiva (adjuntamos el programa de las JIFE).",
+      "Es un momento muy importante porque frente a escribano público vamos a construirnos como asociación civil para iniciar el trámite de personería jurídica. Todos quienes deseen integrarse firmarán el acta. Si por alguna razón no pudieran estar presentes ese día y les interesa formar parte de la Red procuraremos generar las condiciones para que puedan acercarse a firmar el acta en otra instancia, ya que contaremos con 30 días después de la asamblea para hacerlo posible.",
+      "Será un hito clave para darle un impulso a las iniciativas de colaboración en investigación que hasta ahora hemos llevado adelante."
+    ],
+    "letterClosing": "L@s esperamos!!!",
+    "letterSigners": "Silvia Umpiérrez Oroño y Claudia Cabrera Borges",
+    "letterSignersRole": "Fundadoras de la Red Alicia"
   },
   "stats": [
     {
@@ -28,9 +49,9 @@
       "highlight": "Jornada de relevamiento CFE"
     },
     {
-      "label": "Cometidos Centrales",
-      "value": "5",
-      "highlight": "Ejes de articulación y sinergia"
+      "label": "Próximo Hito",
+      "value": "Viernes 13",
+      "highlight": "Asamblea Asociación Civil (IPES)"
     },
     {
       "label": "Acciones del Panal",
@@ -221,23 +242,25 @@
     {
       "id": "claudia-cabrera",
       "name": "Dra. Claudia Cabrera Borges",
-      "role": "Cofundadora y Referente Red ALICIA • Coordinadora GIF",
+      "role": "Cofundadora de la Red ALICIA • Coordinadora GIF",
       "group": "Grupo GIF",
-      "institution": "Consejo de Formación en Educación (CFE) • IFD San José / SNI",
+      "institution": "Consejo de Formación en Educación (CFE) • IFD San José / SNI (ANII)",
       "avatarInitials": "CC",
-      "bio": "Doctora en Educación e investigadora categorizada en el Sistema Nacional de Investigadores (SNI - ANII). Cofundadora de la Red ALICIA e integrante referente del Grupo de Investigación Formativa (GIF). Sus líneas de investigación abordan la investigación formativa, la inclusión de tecnologías digitales e inteligencia artificial en la educación y las prácticas de enseñanza en formación docente.",
+      "bio": "Doctora en Educación y Máster en Educación (Universidad ORT Uruguay), Licenciada en Ciencias Biológicas y Profesora de Biología. Investigadora Nivel I del Sistema Nacional de Investigadores (SNI - ANII). Cofundadora de la Red ALICIA e integrante referente del Grupo de Investigación Formativa (GIF). Investiga sobre políticas educativas, prácticas pedagógicas, inclusión de tecnologías digitales e inteligencia artificial en educación.",
       "lines": ["Investigación Formativa", "Tecnologías Digitales e IA", "Prácticas Pedagógicas"],
+      "cvuy": "https://exportcvuy.anii.org.uy/cv/?c897df4f5c101ba52c1567a5f23ee5b92e8cd71efc6ed6ea1a8f0c4f38051a3a75b5429f120de5627008fbf05bddb550c1922ce3605bbe1b9f8b06e658941bca",
       "orcid": "https://orcid.org/0000-0002-4721-5526"
     },
     {
       "id": "silvia-umpierrez",
       "name": "Dra. Silvia Umpiérrez Oroño",
-      "role": "Cofundadora y Referente Red ALICIA • Directora Grupo Trébol",
+      "role": "Cofundadora de la Red ALICIA • Directora Grupo Trébol",
       "group": "Grupo Trébol",
-      "institution": "Consejo de Formación en Educación (CFE) • CeRP / SNI",
+      "institution": "Consejo de Formación en Educación (CFE) • CeRP del Sur / SNI (ANII)",
       "avatarInitials": "SU",
-      "bio": "Doctora en Educación y Licenciada en Ciencias Biológicas. Cofundadora de la Red ALICIA y directora del Grupo de Investigación Trébol en el ámbito del CFE. Investiga sobre el desarrollo de competencias científicas, gestión educativa, evaluación y consolidación de la cultura investigativa en la formación docente terciaria.",
+      "bio": "Doctora en Educación y Máster en Educación (Universidad ORT Uruguay), Licenciada en Ciencias Biológicas. Investigadora activa en ANII / SNI, docente formadora en el CFE y cofundadora de la Red ALICIA. Dirige el Grupo de Investigación Trébol, abordando el desarrollo de competencias científicas, la gestión educativa, la evaluación y la cultura investigativa en la formación docente.",
       "lines": ["Competencias Científicas", "Cultura Investigativa en CFE", "Gestión y Evaluación Educativa"],
+      "cvuy": "https://exportcvuy.anii.org.uy/cv/?98f2ed8faa2aec013f2e48646d642cd11be51fb6dfd22b35714963b7e163eed53696384c006a7dbef6ad35aea0b0f2df4122c31fe5e49f37d6ff31e96b1505e2",
       "orcid": "https://orcid.org/0000-0001-9530-9768"
     },
     {
@@ -249,40 +272,32 @@
       "avatarInitials": "NP",
       "bio": "Doctora e investigadora pionera en el Consejo de Formación en Educación, fundadora del Grupo de Investigación Didáctica y Extensión en Ciencias Biológicas para la Formación de Docentes (GIDEBIOF) e impulsora fundamental en la gestación de la Red ALICIA en febrero de 2022.",
       "lines": ["Didáctica de las Ciencias Biológicas", "Extensión e Investigación en CFE", "Trabajo Colaborativo en Red"],
+      "cvuy": "https://exportcvuy.anii.org.uy/cv/?eea6c53f68c4f801758fb96ad5a3a31716e738be5b085ce9a4bd849a23364617ce330f03b5c99a910ce107b6212e19a8bdddcc198f904cc4b24684e4c1f633f8",
       "orcid": ""
     },
     {
       "id": "fernanda-matto",
-      "name": "Mag. Fernanda Matto",
+      "name": "Mag. Fernanda Paola Matto Camejo",
       "role": "Investigadora Integrante • Grupo GIF / Red ALICIA",
       "group": "Grupo GIF",
-      "institution": "Consejo de Formación en Educación (CFE) / ANEP",
+      "institution": "Consejo de Formación en Educación (CFE) / ANEP / PEDECIBA",
       "avatarInitials": "FM",
-      "bio": "Profesora de Ciencias de la Naturaleza, Magíster en Biología Celular y Molecular y Magíster en Formación de Formadores. Docente e investigadora activa de la Red ALICIA y del Grupo de Investigación Formativa (GIF), especializada en evaluación educativa, didáctica de las ciencias e integración de inteligencia artificial generativa en educación superior.",
+      "bio": "Profesora de Ciencias de la Naturaleza (mención Biología, CeRP), Magíster en Ciencias Biológicas (PEDECIBA / Udelar) y Máster en Formación de Formadores (Universidad ORT Uruguay). Docente e investigadora activa de la Red ALICIA y del Grupo de Investigación Formativa (GIF), especializada en evaluación educativa, didáctica de las ciencias e integración de inteligencia artificial generativa en educación superior.",
       "lines": ["Formación de Formadores", "Evaluación y Didáctica", "IA Generativa en Educación"],
+      "cvuy": "https://cvuy.uy/",
       "orcid": ""
     },
     {
       "id": "jimena-olivero",
-      "name": "Mag. Jimena Olivero Pera",
+      "name": "Mag. María Jimena Olivero Pera",
       "role": "Investigadora Integrante • Grupo GIF / Red ALICIA",
       "group": "Grupo GIF",
-      "institution": "Consejo de Formación en Educación (CFE) / ANEP",
+      "institution": "Consejo de Formación en Educación (CFE) • IFD San José / ANEP",
       "avatarInitials": "JO",
-      "bio": "Profesora de Sociología y Derecho, Magíster en Educación y doctoranda en Educación. Docente en el CFE e integrante activa de la Red ALICIA y del Grupo GIF, con investigaciones enfocadas en argumentación académica, lectura y escritura en el nivel terciario, sociología de la educación y tecnologías digitales.",
-      "lines": ["Argumentación y Escritura Académica", "Sociología de la Educación", "Didáctica en Nivel Terciario"],
-      "orcid": ""
-    },
-    {
-      "id": "santiago-hernandez",
-      "name": "Prof. Esp. Santiago Hernández",
-      "role": "Investigador y Docente Vinculado • Innovación y Redes Académicas",
-      "group": "Red ALICIA / CFE",
-      "institution": "Formación en Educación • ANEP / CFE • Uruguay",
-      "avatarInitials": "SH",
-      "bio": "Profesor y especialista en tecnologías educativas, investigación pedagógica e inteligencia artificial aplicada a la educación. Impulsor de espacios de articulación digital, redes de investigación educativa y difusión científica abierta en el ámbito de la Formación en Educación.",
-      "lines": ["Inteligencia Artificial y Educación", "Redes Académicas Colaborativas", "Innovación Pedagógica"],
-      "orcid": ""
+      "bio": "Profesora de Sociología y Derecho, Magíster en Educación (Universidad ORT Uruguay) y doctoranda en Educación (Universidad de San Andrés). Docente efectiva en el CFE e integrante activa de la Red ALICIA y del Grupo GIF, con investigaciones enfocadas en competencias científicas, argumentación académica, lectura y escritura en el nivel terciario e inteligencia artificial en la formación docente.",
+      "lines": ["Argumentación y Escritura Académica", "Competencias Científicas", "IA en Formación Docente"],
+      "cvuy": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFus_er7YRxkZg5MuK-iv5zSu_etKpCLEcjxn1XxkpxeRt7xqWh18yVfL7zq6MGNr8ZNPDRQwk7t7A5mhA6hb_XHrP7UdvWAnD7apXT8W6Mb7eDvRpq8ApUONRTpcYa6efZSVAvJhsVeMYtf6c4QujK9xWoFQjyQ7pRpVZnEfJf-6PgoGzFAOUpDPZ0Ur4jdbZXsoMce8t0-dUOvbNc5EAhGKwPUZ0IZtEfrRB1eRHM4oXiIToKglXpcXfQDYtdMqtG4ZwW1z5s5A15P8KswT6Zbbw19iwACdVjAdC2a20ztYwcgWn2YF2uH0VdVwa0cXOXInaiO2qv-_qvH3YlAN0Kqhqc",
+      "orcid": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8T0r4KgULzzqEDvVi4RH23R9bLexP7iCUvJWXyah6b77QBPceuhQcyBtriw7YflBxX2xhvMoSESYlxU4GxFX012l7B2LyxDvE73HFexdLOkIRyNg1gzeV1WmO"
     }
   ],
   "relatedGroups": [
@@ -313,16 +328,22 @@
   ],
   "relatedLinks": [
     {
-      "title": "Revista Panal — Portal Oficial CFE",
-      "subtitle": "Espacio institucional de la Revista Panal y la Red ALICIA en el sitio web del CFE",
-      "url": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes/8-institucional/2142-revista-panal-red-alicia",
-      "category": "Publicación Oficial"
+      "title": "Red ALICIA — Espacio Institucional en CFE",
+      "subtitle": "Página oficial del programa Red ALICIA dentro del Consejo de Formación en Educación",
+      "url": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes",
+      "category": "Programa CFE"
     },
     {
-      "title": "Consejo de Formación en Educación (CFE - ANEP)",
-      "subtitle": "Organismo rector de la formación docente y de educadores en Uruguay",
-      "url": "https://www.cfe.edu.uy/",
-      "category": "Institucional"
+      "title": "JIFE — Jornadas de Investigación en Formación en Educación",
+      "subtitle": "Espacio académico nacional y latinoamericano de intercambio investigativo del CFE (División Planeamiento Educativo)",
+      "url": "https://www.cfe.edu.uy/index.php/125-division-planeamiento-educativo/jife",
+      "category": "Jornadas JIFE"
+    },
+    {
+      "title": "Revista Panal — Portal Oficial CFE",
+      "subtitle": "Espacio institucional de la Revista Panal (ISSN 2982-4168) en el sitio web del CFE",
+      "url": "https://www.cfe.edu.uy/index.php/institucional/programas/red-alicia-alianza-para-la-colaboracion-la-investigacion-y-los-aprendizajes/8-institucional/2142-revista-panal-red-alicia",
+      "category": "Publicación Oficial"
     },
     {
       "title": "Portal de Revistas Académicas del CFE (OJS)",
@@ -341,12 +362,6 @@
       "subtitle": "Registro audiovisual de encuentros, jornadas intergrupales y conversatorios",
       "url": "https://www.youtube.com/channel/UC8QSQYXomrh87EF_pWFJj7w",
       "category": "Multimedia"
-    },
-    {
-      "title": "RELISE — Red Latinoamericana de Investigación Social y Educativa",
-      "subtitle": "Red internacional hermana de cooperación horizontal e investigación educativa en América Latina",
-      "url": "https://relise.org",
-      "category": "Red Hermana"
     }
   ],
   "communityProfiles": [

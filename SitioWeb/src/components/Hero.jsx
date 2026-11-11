@@ -11,12 +11,24 @@ import {
   BookOpen,
   Hexagon,
   Compass,
-  RotateCcw
+  RotateCcw,
+  Calendar
 } from 'lucide-react';
 import aliciaData from '../data/aliciaData.json';
 import HoneycombLogo from './HoneycombLogo';
 
 const hexSlides = [
+  {
+    id: 'destacados',
+    cellNumber: 'Destacado • Viernes 13',
+    title: 'Asamblea en IPES (JIFE)',
+    subtitle: 'Viernes 13 • 15:30 hs • Asociación Civil',
+    desc: 'Conformación formal de la Comisión Directiva y firma del Acta Constitutiva ante escribano público en el marco de las JIFE.',
+    cta: 'Ver Convocatoria Viernes 13',
+    icon: Calendar,
+    href: '#destacados',
+    accent: 'from-amber-500 to-amber-700',
+  },
   {
     id: 'que-es',
     cellNumber: 'Celda 01',
@@ -64,10 +76,10 @@ const hexSlides = [
   {
     id: 'integrantes',
     cellNumber: 'Celda 05',
-    title: 'Integrantes Investigadores',
-    subtitle: 'Docentes, Estudiantes y Egresados',
-    desc: 'Directorio de investigadoras, investigadores y referentes de los institutos del CFE que sostienen el panal académico.',
-    cta: 'Ver Investigadores',
+    title: 'Integrantes y CVUy',
+    subtitle: 'Referentes e Investigadoras CFE',
+    desc: 'Directorio de fundadoras e investigadoras referentes de la Red ALICIA con acceso directo a sus currículums públicos CVUy.',
+    cta: 'Ver Integrantes y CVUy',
     icon: Users,
     href: '#integrantes',
     accent: 'from-alicia-sage-600 to-[#244230]',
@@ -76,8 +88,8 @@ const hexSlides = [
     id: 'grupos-enlaces',
     cellNumber: 'Celda 06',
     title: 'Grupos y Enlaces CFE',
-    subtitle: 'GIF • Trébol • GIDEBIOF',
-    desc: 'Equipos de investigación cofundadores de la Red ALICIA, repositorios abiertos y portales institucionales vinculados.',
+    subtitle: 'GIF • Trébol • GIDEBIOF • JIFE',
+    desc: 'Equipos de investigación cofundadores de la Red ALICIA, portal JIFE, repositorios abiertos y enlaces institucionales.',
     cta: 'Ver Grupos y Enlaces',
     icon: Compass,
     href: '#grupos-enlaces',
@@ -106,9 +118,9 @@ export default function Hero() {
   const [assemblyKey, setAssemblyKey] = useState(0);
   const [showRipple, setShowRipple] = useState(false);
 
-  // Estado continuo del Carrusel 3D (sin saltos al dar la vuelta completa)
+  // Estado continuo del Carrusel 3D
   const [carouselStep, setCarouselStep] = useState(0);
-  const [hoverDirection, setHoverDirection] = useState(null); // 'left' | 'right' | null
+  const [hoverDirection, setHoverDirection] = useState(null);
   const [centerHoverTilt, setCenterHoverTilt] = useState({ x: 0, y: 0 });
   const hoverIntervalRef = useRef(null);
 
@@ -123,7 +135,6 @@ export default function Hero() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Ciclo de ensamblaje del panal al cargar la página o al hacer clic
   useEffect(() => {
     if (!isAssembling) return;
 
@@ -146,7 +157,6 @@ export default function Hero() {
     };
   }, [isAssembling, assemblyKey]);
 
-  // Giro 3D automático al pararse sobre los lados izquierdo o derecho
   useEffect(() => {
     if (!hoverDirection) {
       if (hoverIntervalRef.current) clearInterval(hoverIntervalRef.current);
@@ -176,7 +186,6 @@ export default function Hero() {
     setCarouselStep((prev) => prev + 1);
   };
 
-  // Salto por el camino angular más corto al elegir un indicador inferior
   const handleJumpToSlide = (targetIdx) => {
     let diff = targetIdx - activeSlide;
     if (diff > totalSlides / 2) diff -= totalSlides;
@@ -190,11 +199,9 @@ export default function Hero() {
     setAssemblyKey((prev) => prev + 1);
   };
 
-  // Parallax sutil del emblema de fondo
   const logoOpacity = Math.max(0.03, 0.11 - scrollY * 0.00025);
   const logoTranslateY = scrollY * 0.16;
 
-  // Rotación 3D dinámica del logo superior
   const scrollRotateY = (scrollY * 0.18) % 360;
   const scrollRotateX = Math.min(14, scrollY * 0.03);
 
@@ -215,7 +222,6 @@ export default function Hero() {
     setCenterHoverTilt({ x, y });
   };
 
-  // Calcula la diferencia circular firmada (-3 .. +3) respecto a la celda activa
   const getSignedCircularOffset = (idx) => {
     let diff = idx - activeSlide;
     if (diff > totalSlides / 2) diff -= totalSlides;
@@ -228,10 +234,8 @@ export default function Hero() {
       id="inicio"
       className="relative pt-32 pb-24 md:pt-38 md:pb-28 bg-gradient-to-b from-[#f4f8f5] via-alicia-sage-50/80 to-[#eef4f0] text-slate-900 dark:from-[#06100b] dark:via-[#0b1d14] dark:to-[#091710] dark:text-white overflow-hidden flex flex-col justify-center min-h-[92vh] transition-colors duration-200"
     >
-      {/* Textura de Panal de Abejas en toda la portada */}
       <div className="absolute inset-0 bg-honeycomb-pattern pointer-events-none" />
 
-      {/* Emblema Hexagonal HD en Marca de Agua con Parallax */}
       <div
         className="fixed inset-0 flex items-center justify-center pointer-events-none -z-10 select-none overflow-hidden"
         style={{
@@ -249,13 +253,12 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Focos de luz ambiental en tonos verde salvia, miel dorada y esmeralda */}
       <div className="absolute top-1/4 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[580px] h-[580px] bg-alicia-sage-500/15 dark:bg-alicia-sage-500/20 rounded-full blur-[150px] pointer-events-none -z-10" />
       <div className="absolute top-1/3 right-1/4 translate-x-1/2 w-[620px] h-[620px] bg-amber-400/15 dark:bg-amber-500/15 rounded-full blur-[160px] pointer-events-none -z-10" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center my-auto">
         
-        {/* Emblema Panal ALI.C.I.A HD con Ensamblaje Inaugural de Celdas y Abejas */}
+        {/* Emblema Panal ALI.C.I.A HD */}
         <div className="flex flex-col items-center justify-center mb-6">
           <div
             className={`relative group cursor-pointer ${
@@ -271,10 +274,8 @@ export default function Hero() {
             style={{ perspective: 1200 }}
             title="Haz clic para volver a ensamblar las celdas del Panal ALI.C.I.A"
           >
-            {/* Aura Cromática Verde Salvia + Miel Dorada */}
             <div className="absolute -inset-9 rounded-full blur-3xl animate-alicia-aura opacity-85 group-hover:opacity-100 transition-opacity duration-700" />
 
-            {/* Onda Hexagonal Dorada al acoplarse las celdas del panal */}
             {showRipple && (
               <div
                 key={assemblyKey}
@@ -282,7 +283,6 @@ export default function Hero() {
               />
             )}
 
-            {/* Tarjeta 3D con el Emblema Vectorial HD del Panal ALI.C.I.A */}
             <div
               className="relative w-52 h-52 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-[290px] lg:h-[290px] rounded-3xl p-3.5 sm:p-5 bg-white shadow-[0_25px_70px_rgba(22,33,27,0.35),0_0_55px_rgba(245,158,11,0.28)] ring-4 sm:ring-8 ring-white/95 dark:ring-alicia-sage-400/35 border-2 border-alicia-sage-200 flex items-center justify-center transition-transform duration-150 ease-out"
               style={{
@@ -300,7 +300,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Botón sutil para repetir la animación del Panal */}
           <button
             onClick={handleReplayHoneycomb}
             className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50/90 dark:bg-amber-950/60 hover:bg-amber-100 dark:hover:bg-amber-900/70 text-amber-800 dark:text-amber-300 border border-amber-300/70 dark:border-amber-700/60 text-[11px] font-bold transition-all cursor-pointer shadow-2xs"
@@ -332,7 +331,6 @@ export default function Hero() {
           </div>
 
           <div className="relative max-w-5xl mx-auto flex items-center justify-center">
-            {/* Botón y Zona Lateral Izquierda */}
             <button
               type="button"
               onClick={handlePrevSlide}
@@ -345,7 +343,6 @@ export default function Hero() {
               <ChevronLeft className="w-5 h-5 text-alicia-sage-600 dark:text-amber-300" />
             </button>
 
-            {/* Escenario 3D con Perspectiva Profunda */}
             <div
               className="relative w-full h-[315px] sm:h-[340px] flex items-center justify-center overflow-visible"
               style={{
@@ -354,7 +351,7 @@ export default function Hero() {
               }}
             >
               {hexSlides.map((slide, idx) => {
-                const offset = getSignedCircularOffset(idx); // -3 .. +3
+                const offset = getSignedCircularOffset(idx);
                 const Icon = slide.icon;
                 const isCenter = offset === 0;
                 const isLeft = offset === -1;
@@ -363,7 +360,6 @@ export default function Hero() {
                 const isFarRight = offset === 2;
                 const isVisible = Math.abs(offset) <= 2;
 
-                // Coordenadas y ángulos 3D que producen el giro envolvente de cada hexágono
                 let translateX = '0px';
                 let translateZ = 0;
                 let rotateY = 0;
@@ -442,7 +438,7 @@ export default function Hero() {
                     }}
                     className={`absolute w-[290px] sm:w-[355px] md:w-[390px] h-[275px] sm:h-[305px] select-none cursor-pointer ${
                       !isVisible ? 'pointer-events-none' : ''
-                    } ${ isLeft || isRight ? 'hidden sm:block' : '' } ${
+                    } ${isLeft || isRight ? 'hidden sm:block' : ''} ${
                       isFarLeft || isFarRight ? 'hidden lg:block pointer-events-none' : ''
                     }`}
                     style={{
@@ -450,9 +446,10 @@ export default function Hero() {
                       opacity,
                       transformStyle: 'preserve-3d',
                       transform: `translate3d(${translateX}, 0px, ${translateZ}px) rotateY(${rotateY}deg) rotateX(${rotateX}deg) scale(${scale})`,
-                      transition: isCenter && (centerHoverTilt.x !== 0 || centerHoverTilt.y !== 0)
-                        ? 'transform 0.15s ease-out, opacity 0.5s ease'
-                        : 'transform 0.78s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.65s ease',
+                      transition:
+                        isCenter && (centerHoverTilt.x !== 0 || centerHoverTilt.y !== 0)
+                          ? 'transform 0.15s ease-out, opacity 0.5s ease'
+                          : 'transform 0.78s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.65s ease',
                     }}
                     title={
                       isCenter
@@ -462,7 +459,6 @@ export default function Hero() {
                         : 'Párate aquí o haz clic para girar en 3D a la derecha'
                     }
                   >
-                    {/* CAPA POSTERIOR EXTRUIDA (Grosor 3D del Prisma Hexagonal al girar) */}
                     <div
                       className="absolute inset-0 bg-gradient-to-br from-alicia-sage-800 via-[#243d2e] to-amber-800"
                       style={{
@@ -471,7 +467,6 @@ export default function Hero() {
                       }}
                     />
 
-                    {/* CAPA INTERMEDIA DE CANTO DORADO/SALVIA (Bisel 3D) */}
                     <div
                       className="absolute inset-0 bg-gradient-to-r from-amber-500/80 via-alicia-sage-500 to-teal-600/80"
                       style={{
@@ -480,7 +475,6 @@ export default function Hero() {
                       }}
                     />
 
-                    {/* CARA FRONTAL DEL PRISMA HEXAGONAL */}
                     <div
                       className={`relative w-full h-full p-[3.5px] ${
                         isCenter
@@ -502,7 +496,6 @@ export default function Hero() {
                           clipPath: HEX_CLIP,
                         }}
                       >
-                        {/* Brillo especular dinámico que cruza la cara del hexágono al rotar en 3D */}
                         <div
                           className="absolute inset-0 pointer-events-none transition-transform duration-700"
                           style={{
@@ -512,7 +505,6 @@ export default function Hero() {
                           }}
                         />
 
-                        {/* Cabecera de la celda */}
                         <div className="relative z-10 flex flex-col items-center">
                           <span
                             className={`text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full mb-2 ${
@@ -531,7 +523,6 @@ export default function Hero() {
                           </div>
                         </div>
 
-                        {/* Cuerpo de la celda */}
                         <div className="relative z-10">
                           <h3
                             className={`font-display font-black leading-tight text-slate-900 dark:text-white ${
@@ -553,7 +544,6 @@ export default function Hero() {
                           </p>
                         </div>
 
-                        {/* Pie cliqueable */}
                         <div className="relative z-10">
                           {isCenter ? (
                             <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-gradient-to-r from-alicia-sage-600 to-teal-600 hover:from-alicia-sage-500 hover:to-teal-500 text-white text-[11px] font-bold shadow-sm transition-all">
@@ -573,7 +563,6 @@ export default function Hero() {
               })}
             </div>
 
-            {/* Botón y Zona Lateral Derecha */}
             <button
               type="button"
               onClick={handleNextSlide}
@@ -587,7 +576,6 @@ export default function Hero() {
             </button>
           </div>
 
-          {/* Indicadores Hexagonales Inferiores */}
           <div className="flex flex-wrap items-center justify-center gap-2 mt-3">
             {hexSlides.map((slide, idx) => {
               const active = idx === activeSlide;
@@ -610,7 +598,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Desglose interactivo de la sigla ALI.C.I.A como celdas de panal */}
+        {/* Desglose interactivo de la sigla ALI.C.I.A */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-4xl mx-auto mb-10">
           {aliciaData.acronymBreakdown.map((item, index) => (
             <div
@@ -652,9 +640,8 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* Indicador de Scroll */}
         <div className="mt-10 flex flex-col items-center gap-1.5 text-xs text-slate-500 dark:text-alicia-sage-300/70 animate-bounce">
-          <span>Desliza para recorrer las secciones de la Red ALI.C.I.A</span>
+          <span>Desliza para ver el Destacado del Viernes 13 y las secciones de la Red</span>
           <ChevronDown className="w-4 h-4 text-alicia-sage-600 dark:text-alicia-sage-400" />
         </div>
       </div>
